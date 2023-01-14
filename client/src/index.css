@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+span{
+  padding: 5px;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  margin: 10px;
+}
+li:hover a{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  border-radius: 25%;
+  padding: 5px 10px;
+}
+button:hover, span:hover{
+  cursor: pointer;
+}
+.active{
+  cursor: default;
+}
+form{
+  width: 25%;
+  align-items: center;
+  margin: 40px auto 0 auto ;
+}
+h1, h4{
+  text-align: center;
+}
+h4{
+  color: red;
+}
+input{
+  border-radius: 30%;
+  width: 100%;
+  padding: 4px 8px;
+}
+form div{
+  margin-top: 10px;
+}
+form div a {
+  margin-left: 10px;
+}
